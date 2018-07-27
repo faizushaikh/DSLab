@@ -1,0 +1,9 @@
+.contact-form,.social-media
+{
+    position: relative;
+    float: left;
+}
+.contact-form h3,.social-media h3
+{
+	text-align: center;
+}

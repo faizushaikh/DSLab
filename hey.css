@@ -1,0 +1,126 @@
+header nav ul li{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+footer
+{
+    background-color: #3f3f3f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+main{
+    margin-top: 2%;
+}
+ .myphoto
+ {
+    text-align: center;
+    color: #0077b5;
+ }
+
+ .myphoto img
+ {
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 25%;
+ }
+
+
+.Contact-Form,.social-media
+{
+    position: relative;
+    float: left;
+    border:1px solid black;
+    width: 45%;
+    margin-left:2%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.Contact-Form input[type="submit"]
+{
+    height: 45px;
+    width: 80px;
+    display: block;
+    margin:0 auto;
+    background-color: #0a84ff;
+    color: #ffffff;
+    border-radius: 2px;
+    border:0;
+}
+
+.Contact-Form h3,.social-media h3,.gallery h1
+{
+    text-align: center;
+}
+.social-media>a
+{
+    display:block;
+    text-decoration: none;
+    color:black;
+    margin-top:10px;
+    margin-bottom: 10px; 
+}
+ .social-media a>i
+ {
+    margin-right: 5px;
+ }
+
+ .Contact-Form input[type="submit"]:hover
+{
+opacity:0.8;
+color:#fafafa;
+background-color:black;
+}
+ .gallery figure > img
+ {
+    width:200px;
+    height: 200px;
+   
+ }
+.gallery figure
+{
+    display: inline-block;
+     position: relative;
+    /*float: left;*/
+    border:1px solid black;
+    padding:5px;
+    margin:10px;
+    text-align: center;
+    font-style:italic;
+}
+
+body
+{
+    background-image: url('img/contactbg.jpg');
+    background-repeat: no-repeat;
+}
+
